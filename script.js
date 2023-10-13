@@ -5,6 +5,7 @@ function decimalToBinary(num) {
 		ans=ans+(num%2);
 		num/=2;
 	}
+	console.log(ans)
 	return ans;
   
 }
